@@ -3,7 +3,7 @@
 --1. Frequently Used by DBAs
  
 
-  DBCC CHECKDB ('AdventureWorks');         --  Check database corruption run weakly 
+  DBCC CHECKDB ('AdventureWorks');         --  Check database integrity, run weekly 
 
 
   EXEC sp_updatestats;                     -- Update statistics depence on the databases
